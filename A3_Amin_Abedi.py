@@ -1,12 +1,3 @@
-'''
-APM NOTES:
-
-lotfan run konid va dar enteha score haro report konid besoorate cooment
-
-
-
-'''
-
 # -*- coding: utf-8 -*-
 """
 Created on Thu Oct 17 20:58:22 2024
@@ -77,36 +68,36 @@ model5_best_parameters=gs5.best_params_
 model5_best_score=gs5.best_score_
 #==============================================================================
 
-#======================the best score of best model============================
+#======================the best score of each model============================
 print('best score of LR: ',model1_best_score)
+#best score of LR:  0.9402111473373699
+
 print('best score of KNN: ',model2_best_score)
+#best score of KNN:  0.9402111473373699
+
 print('best score of DT: ',model3_best_score)
+#best score of DT:  0.9455208818506444
+
 print('best score of RF: ',model4_best_score)
+#best score of RF:  0.9613414066138798
+
 print('best score of SVC: ',model5_best_score)
-# so the best model is SVC so let's see what are the best parameters of this model
+#best score of SVC:  0.9806551777674274
+#==============================================================================
 
+#===============================conclusion=====================================
+'''
+by comparing the best score of each 5 models it's obvious that the best 
+model is SVC which has the highest score
+you cna see the best parameters and score of this model below:
+'''
 print('best parameters of best model: ',model5_best_parameters)
+#best parameters of best model:  {'C': 1, 'degree': 2, 'kernel': 'rbf'}
+#best score of SVC:  0.9806551777674274
+#==============================================================================
 
 
 
-'''
-FINAL REPORT:
-
-
-FOR EXAMPLE:
-LR ----> ...%
-KNN----> ...%
-//
-//
-//
-
-ACCORDING TO RESULT THE BEST MDOEL IS ... WITH THIS PARAMETERS ....
-
-
-
-
-
-'''
 
 
 
