@@ -1,4 +1,20 @@
 # -*- coding: utf-8 -*-
+
+'''
+APM:
+
+
+Daryaft shod
+besiar awli
+moafagh bashid
+
+
+
+
+
+'''
+
+
 """
 Created on Thu Oct 17 20:58:22 2024
 
