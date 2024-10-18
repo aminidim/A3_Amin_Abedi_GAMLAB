@@ -1,3 +1,12 @@
+'''
+APM NOTES:
+
+lotfan run konid va dar enteha score haro report konid besoorate cooment
+
+
+
+'''
+
 # -*- coding: utf-8 -*-
 """
 Created on Thu Oct 17 20:58:22 2024
@@ -80,7 +89,24 @@ print('best parameters of best model: ',model5_best_parameters)
 
 
 
+'''
+FINAL REPORT:
 
+
+FOR EXAMPLE:
+LR ----> ...%
+KNN----> ...%
+//
+//
+//
+
+ACCORDING TO RESULT THE BEST MDOEL IS ... WITH THIS PARAMETERS ....
+
+
+
+
+
+'''
 
 
 
